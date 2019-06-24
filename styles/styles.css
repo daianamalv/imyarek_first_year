@@ -1,0 +1,347 @@
+@import "fonts.css";
+
+@import "reset.css";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 250%;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5.5vw;
+  font-weight: 700;
+    /* margin-top: 2vw; */
+  margin-bottom: 2vw;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+  line-height: 1.2;
+
+}
+
+h3 {
+  font-size: 2vw;
+  /* font-weight: 200; */
+  width: 628px;
+}
+
+p {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.7vw;
+  font-weight: 200;
+  color: #939393;
+}
+
+
+header {
+  color: #000;
+  margin-bottom: 46px;
+  /* height: 800px; */
+  /* background-image: url('../images/backone.png'); */
+}
+
+.entry {
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.poster_red, .poster_blue, .theatercover {
+  /* width: 380px;
+  height: 564px; */
+  width: 26vw;
+  height: 37vw;
+}
+
+.poster_blue {
+  /* margin-left: 863px; */
+  margin-left: 59vw;
+  margin-right: 80px;
+  margin-top: -165px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.poster_red {
+  /* margin-left: 976px; */
+margin-right: 160px;
+  margin-left: 67vw;
+margin-top: -47vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.mockupone {
+  margin-left: 190px;
+  margin-top: 46px;
+}
+
+.plusone {
+  margin-top: -415px;
+  margin-left: 80px;
+}
+
+.plustwo {
+  margin-top: -415px;
+  margin-left: 1067px;
+}
+
+.mockuptwo {
+  margin-left: 80px;
+  margin-top: 46px;
+}
+
+nav ul {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 86vw;
+  margin: 0 auto;
+  padding: 10px 40px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  font-size: 18px;
+
+  justify-content: space-between;
+  color: #fff;
+  background-color: #000;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+li {
+  font-size: 18px;
+}
+
+.about {
+  margin-left: 80px;
+  display: flex;
+}
+
+.firstwork, .posters {
+  margin-bottom: 46px;
+}
+
+.abouttext  {
+  margin-left: 80px;
+  width: 660px;
+  margin-bottom: 46px;
+}
+
+.firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext {
+  width: 845px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
+  display: flex;
+  position: relative;
+  margin-left: 80px;
+  justify-content: space-between;
+  width: 1272px;
+}
+
+.postersimage, .searchimage, .finalimage {
+  flex-direction: column;
+}
+
+.flags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flagone {
+  margin-bottom: 30px;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+ font-size: 30px;
+ font-weight: 600;
+ margin: 10px 0 10px 0;
+
+}
+
+.vector {
+  height: 3px;
+  width: 3px;
+}
+
+.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1272px;
+  margin-bottom: 30px;
+}
+
+.typenew, .oldfirst, .deathnew {
+  height: 572px;
+  width: 403px;
+}
+
+.posterslast {
+  display: flex;
+  justify-content: space-between;
+  width: 840px;
+}
+
+.space {
+  background-image: url(../images/topone.png);
+  color: #fff;
+  max-height: 905px;
+}
+
+.spacetext {
+ padding-top: 520px;
+ padding-bottom: 40px;
+}
+
+.spacetext a {
+  color: #fff;
+}
+
+.bookone, .bookthree {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.footerone {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 80px 30px 80px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footerone li:first-of-type {
+  font-weight: 700;
+}
+
+.totop {
+  margin: 30px 0 30px 80px;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 1025px) {
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  /* h1 {
+    font-size: 62px;
+  } */
+
+  /* .poster_red, .poster_blue, .theatercover {
+    width: 370px;
+    height: 530px;
+  } */
+/*
+  .poster_red {
+    margin-top: -490px;
+  } */
+
+
+
+
+
+}
+
+@media (max-width: 769px) {
+  
+  .poster_red, .poster_blue {
+    display: none;
+  }
+
+  header {
+    height: 500px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 85px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 33px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+
+
+
+
+
+}
+
+
+@media (min-width: 1441px) {
+
+  .poster_red, .poster_blue, .theatercover {
+  width: 380px;
+  height: 564px;
+}
+
+h1 {
+  font-size: 85px;
+}
+
+h3 {
+  font-size: 33px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.poster_blue {
+    margin-left: 863px;
+}
+
+.poster_red {
+    margin-left: 976px;
+    margin-top: -714px;
+}
+
+nav ul {
+  width: 1272px;
+}
