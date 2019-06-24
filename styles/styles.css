@@ -261,9 +261,30 @@ a:hover {
     font-size: 15px;
   }
 
-  .abouttext  {
+  .abouttext p {
   font-size: 15px;;
   }
+
+  .mockupone, .mockuptwo {
+  width: 867px;
+  height: 515px;
+  margin: 0 80px;
+  }
+
+  .mockuptwo {
+    margin: 0 auto;
+  }
+
+  .plustwo {
+    margin-top: -238px;
+    margin-left: 657px;;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+
 
 
 }
@@ -272,6 +293,11 @@ a:hover {
 
   .poster_red, .poster_blue {
     display: none;
+  }
+
+  .theatercover {
+    width: 267px;
+    height: 378px;
   }
 
   header {
