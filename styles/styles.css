@@ -87,6 +87,8 @@ margin-top: -47vw;
 }
 
 .mockupone {
+  width: 82vw;
+  height: 54vw;
   margin-left: 190px;
   margin-top: 46px;
 }
@@ -102,6 +104,8 @@ margin-top: -47vw;
 }
 
 .mockuptwo {
+  width: 82vw;
+  height: 54vw;
   margin-left: 80px;
   margin-top: 46px;
 }
@@ -334,8 +338,29 @@ a:hover {
     font-size: 24px;
   }
 
+  .mockupone, .mockuptwo {
+  width: 660px;
+  height: 393px;
+  margin: 0 80px;
+  }
 
+  .plusone {
+    width: 250px;
+    height: 71px;
+    margin-top: -257px;
+  }
 
+  .plustwo {
+    width: 217px;
+    height: 50px;
+    margin-left: 524px;
+
+  }
+
+  .abouttext p {
+  font-size: 15px;
+  line-height: 1.5;
+  }
 
 
 
@@ -408,6 +433,12 @@ font-size: 30px;
 
 .firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
   width: 1272px;
+}
+
+.mockupone, .mockuptwo {
+  width: 1170px;
+  height: 696px;
+
 }
 
 
