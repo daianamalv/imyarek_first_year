@@ -106,6 +106,11 @@ margin-top: -47vw;
   margin-top: 46px;
 }
 
+.formtwo, .flags, .formone {
+  height: 38vw;
+  width: 28vw;
+}
+
 nav ul {
   position: absolute;
   top: 20px;
@@ -142,6 +147,7 @@ li {
 .about {
   margin-left: 80px;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .firstwork, .posters {
@@ -165,7 +171,7 @@ li {
   position: relative;
   margin-left: 80px;
   justify-content: space-between;
-  width: 1272px;
+  width: 89vw;
 }
 
 .postersimage, .searchimage, .finalimage {
@@ -180,6 +186,13 @@ li {
 
 .flagone {
   margin-bottom: 30px;
+  height: 17vw;
+  width: 28vw;
+}
+
+.flagtwo {
+  height: 18vw;
+  width: 28vw;
 }
 
 a {
@@ -277,7 +290,7 @@ a:hover {
 
   .plustwo {
     margin-top: -238px;
-    margin-left: 657px;;
+    margin-left: 576px;
   }
 
   p {
@@ -340,6 +353,10 @@ h1 {
   font-size: 85px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 h3 {
   font-size: 33px;
 }
@@ -363,4 +380,36 @@ nav ul {
 
 .abouttext  {
   width: 660px;
+
+}
+
+p {
+  font-size: 30px;
+}
+
+.abouttext p {
+font-size: 30px;
+}
+
+.formtwo, .flags, .formone {
+  height: 546px;
+  width: 406px;
+}
+
+.flagone {
+  height: 255px;
+  width: 406px;
+}
+
+.flagtwo {
+  height: 260px;
+  width: 406px;
+}
+
+.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
+  width: 1272px;
+}
+
+
+
 }
