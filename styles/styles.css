@@ -280,7 +280,7 @@ a:hover {
 }
 
 @media (max-width: 769px) {
-  
+
   .poster_red, .poster_blue {
     display: none;
   }
