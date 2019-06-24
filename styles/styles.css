@@ -25,7 +25,8 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 4vw;
   font-weight: 700;
   margin: 20px 0 20px 0;
   line-height: 1.2;
@@ -39,7 +40,7 @@ h3 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 2vw;
   margin-bottom: 15px;
 }
 
@@ -149,7 +150,7 @@ li {
 
 .abouttext  {
   margin-left: 80px;
-  width: 660px;
+  width: 50vw;
   margin-bottom: 46px;
 }
 
@@ -260,21 +261,9 @@ a:hover {
     font-size: 15px;
   }
 
-  /* h1 {
-    font-size: 62px;
-  } */
-
-  /* .poster_red, .poster_blue, .theatercover {
-    width: 370px;
-    height: 530px;
-  } */
-/*
-  .poster_red {
-    margin-top: -490px;
-  } */
-
-
-
+  .abouttext  {
+  font-size: 15px;;
+  }
 
 
 }
@@ -344,4 +333,8 @@ h4 {
 
 nav ul {
   width: 1272px;
+}
+
+.abouttext  {
+  width: 660px;
 }
