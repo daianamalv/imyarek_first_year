@@ -468,7 +468,7 @@ a:hover {
     height: 500px;
   }
 
-  nav ul li a {
+  nav ul a li {
     font-size: 13px;
   }
 
@@ -548,7 +548,7 @@ height: 58vw;
 }
 
 .posterslast {
-  width: 79vw;
+  width: 89vw;
 }
 
 .footerone {
