@@ -128,10 +128,14 @@ header {
   margin-bottom: 46px;
   margin-left: 80px;
 }
-
 .wallvis {
-  height: 56vw;
+  width: 82vw;
+  height: 60vw;
+  margin-bottom: 46px;
+  margin-left: 80px;
 }
+
+
 
 .formtwo, .flags, .formone {
   height: 38vw;
