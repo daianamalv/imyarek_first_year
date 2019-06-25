@@ -255,10 +255,14 @@ a {
 
 .footerone {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 30px 80px 30px 80px;
   background-color: #000;
   color: #fff;
+}
+
+.project {
+  margin-right: 30px;
 }
 
 .footerone li:first-of-type {
@@ -429,8 +433,8 @@ a:hover {
   }
 
   .mockupone, .mockuptwo {
-  width: 660px;
-  height: 393px;
+    width: 89vw;
+  height: 60vw;
   }
 
   .plusone {
@@ -442,7 +446,7 @@ a:hover {
   .plustwo {
     width: 217px;
     height: 50px;
-        margin-left: 484px;
+    margin-left: 66vw;
 
   }
 
@@ -484,6 +488,109 @@ height: 58vw;
   width: 89vw;
 }
 
+.footerone {
+  padding: 30px 1px 30px 1px;
+  font-size: 15px;
+}
+
+
+
+
+}
+
+@media (max-width: 376px) {
+
+  nav ul {
+    display: none;
+  }
+
+
+
+.plusone, .plustwo {
+  display: none;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.abouttext {
+  margin-left: 20px;
+}
+
+.entry {
+    margin-top: 158px;
+}
+
+.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage, .postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .posterslast {
+  flex-direction: column;
+}
+
+.formtwo, .flags, .formone {
+    height: 120vw;
+    width: 89vw;
+  }
+
+  .flagone {
+    height: 42vw;
+width: 89vw;
+margin-top: 30px;
+  }
+  .flagtwo {
+  height: 56vw;
+width: 89vw;
+margin-bottom: 30px;
+}
+
+.handposter, .oldposter, .typenew, .oldfirst, .deathnew {
+    width: 89vw;
+    height: 129vw;
+
+
+  }
+
+  .handposter, .oldfirst, .deathnew {
+    margin-bottom: 30px;
+  }
+
+h1 {
+  font-size: 43px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  width: 315px;
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 36px;
+  width: 280px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.theatercover {
+  width: 89vw;
+height: 114vw;
+}
+
+.mockupone {
+  margin-bottom: 30px;
+}
+
+a {
+  font-size: 18px;
+}
 
 
 
@@ -564,7 +671,7 @@ font-size: 30px;
 
 }
 
-.handposter, .oldposter {
+.handposter, .oldposter, .searchfour, .searchfive {
   width: 626px;
   height: 875px;
 }
@@ -573,7 +680,7 @@ font-size: 30px;
   width: 1272px;
 }
 
-.typenew, .oldfirst, .deathnew {
+.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree {
     height: 572px;
     width: 403px;
   }
