@@ -147,6 +147,7 @@ ul li a {
 
 li {
   font-size: 18px;
+  color: #fff;
 }
 
 .about {
@@ -155,7 +156,7 @@ li {
   margin-bottom: 30px;
 }
 
-.firstwork, .posters {
+.firstwork, .posters,   .storyposter {
   margin-bottom: 46px;
 }
 
@@ -165,7 +166,7 @@ li {
   margin-bottom: 46px;
 }
 
-.firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext {
+.firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext, .storypostertext {
   width: 845px;
   margin-left: 80px;
   margin-bottom: 30px;
@@ -176,7 +177,7 @@ li {
   position: relative;
   margin-left: 80px;
   justify-content: space-between;
-  width: 79vw;
+  width: 89vw;
 }
 
 .postersimage, .searchimage, .finalimage {
@@ -218,7 +219,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 79vw;
+  width: 89vw;
   margin-bottom: 30px;
 }
 
@@ -338,6 +339,8 @@ a:hover {
 
 
 
+
+
 @media (max-width: 1025px) {
 
   nav ul li a {
@@ -356,7 +359,7 @@ a:hover {
   }
 
   .abouttext {
-        margin-left: 40px;
+    margin-left: 40px;
   }
 
   .mockupone, .mockuptwo {
@@ -456,10 +459,15 @@ a:hover {
       width: 300px;
   }
 
-  .firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext {
+  .firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext, .storypostertext {
     width: 85vw;
     margin-left: 40px;
     font-size: 24px;
+  }
+
+  .storypostertext {
+    margin-top: 200px;
+
   }
 
   .firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
