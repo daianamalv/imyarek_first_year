@@ -523,8 +523,12 @@ height: 58vw;
     margin-top: 158px;
 }
 
-.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage, .postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .posterslast {
+.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage, .postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .posterslast, .bookcolone {
   flex-direction: column;
+}
+
+.booktwo {
+  display: none;
 }
 
 .formtwo, .flags, .formone {
@@ -552,6 +556,10 @@ margin-bottom: 30px;
 
   .handposter, .oldfirst, .deathnew {
     margin-bottom: 30px;
+  }
+
+  .space {
+    margin-left: 35px;
   }
 
 h1 {
@@ -591,6 +599,18 @@ height: 114vw;
 a {
   font-size: 18px;
 }
+
+.bookone {
+  width: 89vw;
+  height: 120vw;
+}
+
+.bookthree, .bookfour {
+  width: 89vw;
+  height: 60vw;
+
+}
+
 
 
 
