@@ -178,7 +178,7 @@ li {
   margin-bottom: 46px;
 }
 
-.abouttext, .imyarekabout  {
+.abouttext, .imyarekabout, .logotext  {
   margin-left: 80px;
   width: 50vw;
   margin-bottom: 46px;
@@ -186,6 +186,10 @@ li {
 
 .imyarekabout {
   margin-top: 200px;
+}
+
+.logo {
+  margin-top: 46px;
 }
 
 .firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext, .storypostertext {
