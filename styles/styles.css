@@ -59,6 +59,13 @@ header {
   /* background-image: url('../images/backone.png'); */
 }
 
+.posthed {
+    color: #000;
+  margin-bottom: 46px;
+  /* height: 800px; */
+  /* background-image: url('../images/backone.png'); */
+}
+
 .entry {
   margin-left: 80px;
   margin-top: 200px;
@@ -81,10 +88,14 @@ header {
 
 .poster_red {
   /* margin-left: 976px; */
-margin-right: 160px;
+  margin-right: 160px;
   margin-left: 67vw;
-margin-top: -47vw;
+  margin-top: -47vw;
   box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.webposter {
+  margin-left: 80px;
 }
 
 .mockupone {
@@ -104,11 +115,18 @@ margin-top: -47vw;
   margin-left: 1067px;
 }
 
-.mockuptwo {
+.mockuptwo, {
   width: 82vw;
   height: 54vw;
   margin-left: 80px;
   margin-top: 46px;
+}
+
+.streetwallvis, .wallvis {
+  width: 82vw;
+  height: 54vw;
+  margin-bottom: 46px;
+  margin-left: 80px;
 }
 
 .formtwo, .flags, .formone {
@@ -172,7 +190,7 @@ li {
   margin-bottom: 30px;
 }
 
-.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
+.firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage, .storypostersimage {
   display: flex;
   position: relative;
   margin-left: 80px;
@@ -215,7 +233,7 @@ a {
   width: 3px;
 }
 
-.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo {
+.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .storypostersrawone, .storypostersrawtwo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -223,15 +241,20 @@ a {
   margin-bottom: 30px;
 }
 
-.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree {
+.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree, .typoloss, .typodeath, .typodrama {
   height: 38vw;
   width: 28vw;
 }
 
-.posterslast {
+.posterslast, .storyposterslast {
   display: flex;
   justify-content: space-between;
   width: 59vw;
+}
+
+.storypostersimage {
+  display: flex;
+  flex-direction: column;
 }
 
 .space {
@@ -278,7 +301,7 @@ a:hover {
   font-weight: 700;
 }
 
-.handposter, .oldposter, .searchfour, .searchfive {
+.handposter, .oldposter, .searchfour, .searchfive, .typopain, .typoweight {
     width: 43vw;
     height: 58vw;
 
@@ -332,7 +355,15 @@ a:hover {
 
   }
 
+  .storypostertext {
+    margin-top: 200px;
 
+  }
+
+  .video {
+    margin-left: 80px;
+    margin-top: 100px;
+  }
 
 
 
@@ -379,6 +410,10 @@ a:hover {
 
   p {
     font-size: 30px;
+  }
+
+  .webposter {
+    display: none;
   }
 
   /* .handposter, .oldposter {
@@ -465,12 +500,9 @@ a:hover {
     font-size: 24px;
   }
 
-  .storypostertext {
-    margin-top: 200px;
 
-  }
 
-  .firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
+  .firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage, .storypostersimage {
     margin-left: 40px;
   }
 
@@ -501,6 +533,11 @@ height: 58vw;
   font-size: 15px;
 }
 
+
+.streetwallvis, .wallvis {
+
+    margin-left: 40px;
+  }
 
 
 
@@ -650,6 +687,11 @@ a {
     margin: 30px 0 30px 30px;
   }
 
+  .streetwallvis, .wallvis {
+
+      margin-left: 30px;
+    }
+
 
 }
 
@@ -722,27 +764,27 @@ font-size: 30px;
   width: 1272px;
 }
 
-.mockupone, .mockuptwo {
+.mockupone, .mockuptwo, .streetwallvis, .wallvis {
   width: 1170px;
   height: 696px;
 
 }
 
-.handposter, .oldposter, .searchfour, .searchfive {
+.handposter, .oldposter, .searchfour, .searchfive, .typopain, .typoweight {
   width: 626px;
   height: 875px;
 }
 
-.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo {
+.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .storypostersrawtwo, .storypostersrawone {
   width: 1272px;
 }
 
-.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree {
+.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree, .typoloss, .typodeath, .typodrama {
     height: 572px;
     width: 403px;
   }
 
-  .posterslast {
+  .posterslast, .storyposterslast {
     width: 840px;
   }
 
