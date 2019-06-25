@@ -22,6 +22,7 @@ h1 {
   font-weight: 700;
     /* margin-top: 2vw; */
   margin-bottom: 2vw;
+      line-height: 1;
 }
 
 h2 {
@@ -217,19 +218,19 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1272px;
+  width: 89vw;
   margin-bottom: 30px;
 }
 
-.typenew, .oldfirst, .deathnew {
-  height: 572px;
-  width: 403px;
+.typenew, .oldfirst, .deathnew, .searchone, .searchtwo, .searchthree {
+  height: 38vw;
+  width: 28vw;
 }
 
 .posterslast {
   display: flex;
   justify-content: space-between;
-  width: 840px;
+  width: 59vw;
 }
 
 .space {
@@ -272,24 +273,96 @@ a:hover {
   font-weight: 700;
 }
 
+.handposter, .oldposter, .searchfour, .searchfive {
+    width: 43vw;
+    height: 58vw;
+
+  }
+
+  .bookone {
+    width: 35vw;
+  height: 46vw;
+
+  }
+
+  .booktwo {
+    width: 35vw;
+    height: 26vw;
+}
+
+
+  .bookthree {
+    width: 50vw;
+    height: 36vw;
+
+  }
+
+  .bookfour {
+    width: 50vw;
+    height: 36vw;
+
+  }
+
+  .finalone {
+    width: 59vw;
+    height: 41vw;
+
+  }
+
+  .finaltwo {
+    width: 28vw;
+    height: 41vw;
+
+  }
+
+  .finalthree {
+    width: 29vw;
+    height: 38vw;
+
+  }
+
+  .finalfour {
+    width: 58vw;
+      height: 38vw;
+
+  }
+
+
+
+
+
+
+
+
 @media (max-width: 1025px) {
 
   nav ul li a {
     font-size: 15px;
   }
 
+  .about {
+    margin-left: 40px;
+  }
+
   .abouttext p {
-  font-size: 15px;;
+  font-size: 15px;
+  width: 350px;
+    line-height: 1.5;
+
+  }
+
+  .abouttext {
+        margin-left: 40px;
   }
 
   .mockupone, .mockuptwo {
   width: 867px;
   height: 515px;
-  margin: 0 80px;
+  margin: 0 40px;
   }
 
-  .mockuptwo {
-    margin: 0 auto;
+  .plusone {
+    margin-left: 40px;
   }
 
   .plustwo {
@@ -300,6 +373,11 @@ a:hover {
   p {
     font-size: 30px;
   }
+
+  /* .handposter, .oldposter {
+    width: 626px;
+    height: 875px;
+  } */
 
 
 
@@ -317,6 +395,10 @@ a:hover {
     height: 378px;
   }
 
+  .entry {
+    margin-top: 320px;
+  }
+
   header {
     height: 500px;
   }
@@ -327,7 +409,7 @@ a:hover {
 
   h1 {
     font-size: 85px;
-    margin-bottom: 10px;
+    margin-bottom: 42px;
   }
 
   h3 {
@@ -338,10 +420,17 @@ a:hover {
     font-size: 24px;
   }
 
+  h2 {
+    font-size: 36px;
+  }
+
+  .entry {
+    margin-left: 40px;
+  }
+
   .mockupone, .mockuptwo {
   width: 660px;
   height: 393px;
-  margin: 0 80px;
   }
 
   .plusone {
@@ -353,14 +442,48 @@ a:hover {
   .plustwo {
     width: 217px;
     height: 50px;
-    margin-left: 524px;
+        margin-left: 484px;
 
   }
 
   .abouttext p {
   font-size: 15px;
   line-height: 1.5;
+      width: 300px;
   }
+
+  .firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext {
+    width: 85vw;
+    margin-left: 40px;
+    font-size: 24px;
+  }
+
+  .firstworkimage, .postersimage, .booksimage, .searchimage, .finalimage {
+    margin-left: 40px;
+  }
+
+  .postersrawtwo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.handposter, .oldposter, .typenew, .oldfirst, .deathnew {
+  /* width: 318px;
+  height: 445px; */
+  width: 43vw;
+height: 58vw;
+
+}
+
+.typenew {
+  margin-bottom: 30px;
+}
+
+.posterslast {
+  width: 89vw;
+}
+
 
 
 
@@ -441,6 +564,69 @@ font-size: 30px;
 
 }
 
+.handposter, .oldposter {
+  width: 626px;
+  height: 875px;
+}
+
+.postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo {
+  width: 1272px;
+}
+
+.typenew, .oldfirst, .deathnew {
+    height: 572px;
+    width: 403px;
+  }
+
+  .posterslast {
+    width: 840px;
+  }
+
+  .bookone {
+    width: 516px;
+    height: 659px;
+  }
+
+  .booktwo {
+    width: 516px;
+    height: 362px;
+  }
+
+  .bookthree {
+    width: 735px;
+    height: 519px;
+
+  }
+
+  .bookfour {
+    width: 733px;
+    height: 519px;
+
+  }
+
+  .finalone {
+    width: 835px;
+    height: 590px;
+
+  }
+
+  .finaltwo {
+    width: 405px;
+    height: 590px;
+
+  }
+
+  .finalthree {
+    width: 406px;
+    height: 542px;
+
+  }
+
+  .finalfour {
+    width: 839px;
+    height: 542px;
+
+  }
 
 
 }
