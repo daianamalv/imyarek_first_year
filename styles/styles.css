@@ -188,9 +188,25 @@ li {
   margin-top: 200px;
 }
 
+.logotext {
+  display: flex;
+  flex-direction: column;
+}
+
+.logotexttext {
+  margin-top: 65px;
+}
+
 .logo {
   margin-top: 46px;
+  width: 50vw;
+  height: 34vw;
 }
+
+.video {
+    width: 89vw;
+    height: 60vw;
+  }
 
 .firstworktext, .postertext, .spacetext, .booktext, .searchtext, .finaltext, .storypostertext {
   width: 845px;
@@ -234,11 +250,6 @@ a {
  font-weight: 600;
  margin: 10px 0 10px 0;
 
-}
-
-.vector {
-  height: 3px;
-  width: 3px;
 }
 
 .postersrawone, .postersrawtwo, .searchrawone, .searchrawtwo, .finalrawone, .finalrawtwo, .storypostersrawone, .storypostersrawtwo {
@@ -422,6 +433,10 @@ a:hover {
 
   .webposter {
     display: none;
+  }
+
+  .video {
+    margin-left: 40px;
   }
 
   /* .handposter, .oldposter {
@@ -700,6 +715,10 @@ a {
       margin-left: 30px;
     }
 
+    .video {
+      margin-left: 35px;
+    }
+
 
 }
 
@@ -840,6 +859,11 @@ font-size: 30px;
     width: 839px;
     height: 542px;
 
+  }
+
+  .video {
+    width:1272px;
+    height:715px;
   }
 
 
